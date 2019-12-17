@@ -68,6 +68,26 @@ const routes = [
     component: () => import(/* webpackChunkName: "index" */ '../views/Settlement.vue'),
 
 
+  },
+  {
+    path: '/Location',
+    name: 'Location',
+    meta:{
+      title:"定位"
+    },
+    component: () => import(/* webpackChunkName: "index" */ '../views/Location.vue'),
+
+
+  },
+  {
+    path: '/Payfor',
+    name: 'Payfor',
+    meta:{
+      title:"支付"
+    },
+    component: () => import(/* webpackChunkName: "index" */ '../views/Payfor.vue'),
+
+
   }
 
 

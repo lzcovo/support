@@ -51,7 +51,7 @@
                     </van-cell>
                 </van-cell>
                 <van-cell >
-                    <van-cell title="客服" is-link url="/vant/mobile.html" />
+                    <van-cell title="客服" is-link to="/Payfor" />
                 </van-cell>
                 <van-cell >
                     <van-cell title="系统设置" is-link url="/vant/mobile.html" />
